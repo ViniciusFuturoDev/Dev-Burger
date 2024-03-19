@@ -155,7 +155,7 @@ checkoutBtn.addEventListener("click", function () {
     const phone = "5522998277850"
 
     window.open(
-        `https://wa.me/${phone}?text=${message} Endereço: ${addresInput.value.to}`,
+        `https://wa.me/${phone}?text=${message} Endereço: ${addresInput.value}`,
         "_blank"
     )
 
